@@ -41,3 +41,12 @@ Following tutorial
 ```
 
 * Git push options: https://git-scm.com/docs/git-push
+
+* Synchronising your fork with original repository
+```
+  git remote -v
+  git remote add upstream https://github.com/[Original Owner Username]/[Original Repository].git
+  git remote -v
+  git fetch upstream
+
+```
